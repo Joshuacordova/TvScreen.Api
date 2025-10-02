@@ -1,0 +1,171 @@
+[
+  {
+    "ContainingType": "TVScreen.API.Controllers.ChannelManagerController",
+    "Method": "CreateChannelManager",
+    "RelativePath": "ChannelManager/CreateChannels",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "channelManagerDto",
+        "Type": "Application.DTOs.ChannelManagerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TVScreen.API.Controllers.ChannelManagerController",
+    "Method": "GetAllTvChannels",
+    "RelativePath": "ChannelManager/GetAllTvChannels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "lastPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TVScreen.API.Controllers.ContentCatalogController",
+    "Method": "CreateCatalog",
+    "RelativePath": "ContentCatalog/CreateCatalog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contentCatalogDto",
+        "Type": "Application.DTOs.ContentCatalogDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TVScreen.API.Controllers.ContentCatalogController",
+    "Method": "DeleteCatalog",
+    "RelativePath": "ContentCatalog/DeleteCatalog",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TVScreen.API.Controllers.ContentCatalogController",
+    "Method": "FindCatalog",
+    "RelativePath": "ContentCatalog/FindCatalog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uid",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TVScreen.API.Controllers.ContentCatalogController",
+    "Method": "GetAllCatalog",
+    "RelativePath": "ContentCatalog/GetAllCatalog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "lastPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TVScreen.API.Controllers.ContentCatalogController",
+    "Method": "UpdateCatalog",
+    "RelativePath": "ContentCatalog/UpdateCatalog",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contentCatalogDto",
+        "Type": "Application.DTOs.ContentCatalogDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TVScreen.API.Controllers.FilterController",
+    "Method": "GetScheduleContent",
+    "RelativePath": "Filter/GetScheduleContent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "startPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "lastPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TVScreen.API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TVScreen.API.WeatherForecast, TVScreen.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

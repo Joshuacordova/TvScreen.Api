@@ -1,0 +1,22 @@
+[
+  {
+    "ContentId": "13a7d019-16e6-4a32-8328-7b5299c8adef",
+    "Title": "Superman return",
+    "Type": "string",
+    "Genre": 1,
+    "Language": "string",
+    "CountryOfOrigin": "string",
+    "ReleaseDate": "2025-10-02T14:05:21.77Z",
+    "DurationMinutes": 0,
+    "Rating": "string",
+    "Synopsis": "string",
+    "Cast": "string",
+    "Director": "string",
+    "ProductionCompany": "string",
+    "PostUrl": "string",
+    "TrailerUrl": "string",
+    "IsActive": true,
+    "CreatedAt": "2025-10-02T14:05:21.77Z",
+    "UpdatedAt": "2025-10-02T14:05:21.77Z"
+  }
+]

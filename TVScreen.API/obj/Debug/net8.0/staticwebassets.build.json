@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "bLdNOKW7z95fcm5CYTyvgMFYy9CtdfaU9LiSbzbDcWU=",
+  "Source": "TVScreen.API",
+  "BasePath": "_content/TVScreen.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
